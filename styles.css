@@ -1,0 +1,26 @@
+*, html {
+    margin:0;
+    padding:0;  
+}
+
+
+.menulist{
+    list-style-type: none;
+    background-color: #dc143c;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+.button .buttontag{
+    float: right;
+    padding: 25px 0 25px 0;
+    margin-right: 3%;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
