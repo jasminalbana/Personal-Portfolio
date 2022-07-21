@@ -152,3 +152,25 @@ hr{
     text-decoration: underline;
 }
 /*---------end workpage----------*/
+
+/*---------start contactpage----------*/
+
+.contactpage{
+    background: linear-gradient(90deg, rgb(50, 51, 51), rgb(24, 24, 24));
+    width: 100%;
+    height: 70%;
+    padding-top: 20%;
+    padding-bottom: 23%;
+}
+
+#letsworktogether{
+    font: 3.5em sans-serif;
+}
+
+#coffee{
+    font: 1.5em sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    color:whitesmoke;
+    font-style: italic;
+}
