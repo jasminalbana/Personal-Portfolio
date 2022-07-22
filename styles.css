@@ -3,7 +3,6 @@
     padding:0;  
 }
 
-
 .menulist{
     list-style-type: none;
     background-color: #dc143c;
@@ -11,17 +10,31 @@
     position: fixed;
     top: 0;
     width: 100%;
-    
+   
 }
 
 .button .buttontag{
     float: right;
-    padding: 25px 0 25px 0;
-    margin-right: 3%;
+    padding: 25px 20px 25px 20px;
     font-size: 1.5rem;
     text-decoration: none;
     color: whitesmoke;
     font-family: sans-serif;
+    margin-right: 10px;   
+    
+}
+
+.button{
+    display: inline-block;
+}
+
+.navbar{
+    text-align: right;  
+}
+
+a:hover{
+    background-color: #2c3e50;
+    
 }
 
 .Aboutpage{
@@ -32,7 +45,7 @@
     padding-bottom: 23%;
 }
 
-h1{
+#myname {
     text-align: center;
     color: whitesmoke;
     font-size: 60px;
@@ -40,16 +53,23 @@ h1{
     font-family: sans-serif;    
 }
 
-p{
-    color: #dc143c;
-    font-size: 25px;
-    text-align: center;
-    font-style: italic;
-    font-family:Arial;
-    padding-top: 15px;
-    letter-spacing: 1.5px;
-    font-weight: 200;
+
+.wrapper {
+    display: grid;
+    place-items: center;
 }
+  
+.typing-demo {
+    width: 21ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    color: #dc143c;
+}
+
 
 /*---------start workpage----------*/
 .workpage{
@@ -152,3 +172,17 @@ hr{
     text-decoration: underline;
 }
 /*---------end workpage----------*/
+
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
