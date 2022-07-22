@@ -3,6 +3,9 @@
     padding:0;  
 }
 
+
+/*-----start navbar---------*/
+
 .menulist{
     list-style-type: none;
     background-color: #dc143c;
@@ -37,6 +40,10 @@ a:hover{
     
 }
 
+/*-----end navbar---------*/
+
+/*-----start aboutpage---------*/
+
 .Aboutpage{
     background: linear-gradient(90deg, rgb(50, 51, 51), rgb(24, 24, 24));
     width: 100%;
@@ -68,7 +75,22 @@ a:hover{
     font-family: monospace;
     font-size: 2em;
     color: #dc143c;
+    
 }
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+/*-----end aboutpage---------*/
 
 
 /*---------start workpage----------*/
@@ -187,6 +209,7 @@ hr{
 
 #letsworktogether{
     font: 3.5em sans-serif;
+    color: whitesmoke;
 }
 
 #coffee{
@@ -198,12 +221,13 @@ hr{
 }
 
 .fa {
-    padding-top: 3%;
+    margin-top: 3%;
     font-size: 30px !important;
     width: 50px;
     text-align: center;
     text-decoration: none;
     color: whitesmoke;
+    padding: 0;
 }
 
 .fa:hover {
@@ -223,18 +247,7 @@ hr.line{
    
 }
 /*---------end contactpage----------*/
-=======
-  
-  @keyframes typing {
-    from {
-      width: 0
-    }
-  }
-      
-  @keyframes blink {
-    50% {
-      border-color: transparent
-    }
-  }
 
+  
+  
 
