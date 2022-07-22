@@ -45,7 +45,7 @@ a:hover{
     padding-bottom: 23%;
 }
 
-h1{
+#myname {
     text-align: center;
     color: whitesmoke;
     font-size: 60px;
@@ -53,16 +53,23 @@ h1{
     font-family: sans-serif;    
 }
 
-p{
-    color: #dc143c;
-    font-size: 25px;
-    text-align: center;
-    font-style: italic;
-    font-family:Arial;
-    padding-top: 15px;
-    letter-spacing: 1.5px;
-    font-weight: 200;
+
+.wrapper {
+    display: grid;
+    place-items: center;
 }
+  
+.typing-demo {
+    width: 21ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    color: #dc143c;
+}
+
 
 /*---------start workpage----------*/
 .workpage{
@@ -166,6 +173,7 @@ hr{
 }
 /*---------end workpage----------*/
 
+
 /*---------start contactpage----------*/
 
 .contactpage{
@@ -215,3 +223,18 @@ hr.line{
    
 }
 /*---------end contactpage----------*/
+=======
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+
