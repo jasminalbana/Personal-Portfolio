@@ -69,6 +69,110 @@ a:hover{
     font-size: 2em;
     color: #dc143c;
 }
+
+
+/*---------start workpage----------*/
+.workpage{
+    background: rgb(66, 88, 158);
+    width: 100%;
+    height: 70%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.box{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;  
+    margin-left: 20%;
+    margin-right: 50%;
+    margin-top: 2%;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    padding-top: 2%;
+    
+
+}
+   
+
+.boxitem {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    height: 400px;
+    width: 370px; 
+    overflow: hidden;
+   
+  }
+
+.workimage{
+    height: 70%;
+    width: 80%;
+    padding: 10%;
+}
+
+.description{
+    
+    width: 100%;    
+    background-color: rgb(51, 50, 50);
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 12%;
+    font-size: 20px;
+    font-family: sans-serif;
+     
+}
+
+h3{
+    margin-top: 2%;
+    color: whitesmoke;
+    font: 2.5em sans-serif;
+    text-align: center;
+}
+
+hr{
+    border-top: 3px solid #bbb;
+    width: 30%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 0;
+
+}
+
+.buttonwork{
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+  
+  
+}
+
+.selectall{
+    font-size: 20px;
+    padding: 0.5% 2%;
+    background-color: rgb(51, 50, 50);
+    
+
+}
+
+#buttonworktag{
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+.selectall:hover{
+    background-color: #dc143c;
+    border-color: #dc143c;
+}
+
+.description:hover{
+    color: #dc143c;
+    text-decoration: underline;
+}
+/*---------end workpage----------*/
+
   
   @keyframes typing {
     from {
@@ -81,3 +185,4 @@ a:hover{
       border-color: transparent
     }
   }
+
